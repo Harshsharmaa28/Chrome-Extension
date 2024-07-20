@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link rel="stylesheet" href="styles.css"> -->
+  <!-- <script type="module" src="content.js"></script> -->
+  <title>Modal</title>
+</head>
+
+<body>
+  <div class="chat" style="
+  width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Subtle shadow for depth */
+">
+    <div class="chat-title" style="
+    background-color: #007bff;
+    color: white;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+    position: relative;
+    display: flex; /* Allow horizontal alignment of title elements */
+    justify-content: space-between; /* Distribute title elements horizontally */
+  ">
+      <div class="chat-title" style=" display: flex; justify-content: space-between;">
+        <div>
+          <h1 style="margin: 0; font-size: 24px;">Roboi</h1>
+          <h2 style="margin: 0 10px 0 0; font-size: 16px;">Your Youtube Assistant</h2>
+        </div>
+        <img src="https://img.freepik.com/free-photo/3d-delivery-robot-working_23-2151150169.jpg"
+          alt="Chat robot avatar" style="width: 50px; height: 50px; border-radius: 50%; object-fit: cover;">
+      </div>
+
+    </div>
+    <div class="messages" style="
+    flex: 1;
+    padding: 15px;
+    overflow-y: auto;
+    background-color: #fff; /* Slight contrast for better readability */
+  ">
+      <div class="messages-content" style="display: flex; flex-direction: column; gap: 10px;"></div>
+    </div>
+    <div class="message-box" style="
+    border-top: 1px solid #ddd;
+    padding: 5px;
+    display: flex;
+    gap: 10px;
+  ">
+      <textarea type="text" class="message-input" style="
+      flex: 1;
+      padding: 5px;
+      border-radius: 5px;
+      border: 1px solid #9a9797;
+      resize: none;
+      height: 40px;
+      font-family: inherit; /* Inherit font from parent elements */
+    " placeholder="Type message..."></textarea>
+      <button type="submit" class="message-submit" style="
+      background-color: #007bff;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    ">
+        Send
+      </button>
+    </div>
+  </div>
+
+
+</body>
+
+</html>
