@@ -9,3 +9,6 @@
 ![Screenshot 2024-07-20 180715](https://github.com/user-attachments/assets/0b10c0bf-e4cb-4584-84c5-fe30a35079e1)
 ### This is an Example of How you use this Extension On your Laptop.
 
+## Working video: 
+https://drive.google.com/file/d/1ly4HWCNNitux4Fs5QXgvn8xC3XGT3o-0/view?usp=drive_link
+
